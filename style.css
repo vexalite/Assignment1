@@ -12,18 +12,22 @@ body{
 }
 .neon{
     color:#64FFDA !important;
+    fill:#64FFDA
     
 }
 .red{
     color: #e63946 !important;
     padding-left: 50px;
 }
+.tran{
+    writing-mode: vertical-lr;
+}
 #navbarCollapse{
     display: flex !important;
     justify-content: flex-end !important;
 }
 #intro{
-    margin-top: 30em !important;
+    margin-top: 25em !important;
     margin-bottom: 40em !important;
 }
 #about{
@@ -95,3 +99,8 @@ img:hover{
 .img2{
     filter: saturate(10);
 }
+@media only screen and (max-width: 600px) {
+    .hidden {
+      display:hidden;
+    }
+  }
